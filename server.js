@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = 80;
 
-const db = new sqlite3.Database('test.db');
+const db = new sqlite3.Database('SuspensionDB.db');
 
 app.use(bodyParser.json());
 
